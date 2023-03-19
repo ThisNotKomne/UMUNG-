@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+img {
+    width: 48%;
+    height: auto;
+    }
+
+footer{
+    background-color: #fff;
+    
+}
+
+p3{
+color: #fff;
+}
+
+ p1{
+    color: black;
+} 
+
+li {
+    color:#f16092;
+}
+
+
+button{
+    transform: translate(0,100px);
+    -webkit-transform: translate(0,100px);
+    -o-transform: translate(0,100px);
+    -moz-transform: translate(0,100px);
+}
+
+body{
+    margin: 0;
+    font-family: Open Sans;
+    color:rgb(0, 0, 0);
+    background-color: #D9D9D9;
+    
+}
+
+h1, p{
+    margin: 0;
+    color: #000000;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 18px;
+    border: 1px dotted white;
+    
+}
+a:active{
+    color:rgb(3, 3, 3);
+
+
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+/* header */
+
+header{
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+   
+}
+
+.header-inner{
+    display: flex;
+}
+
+.logoImg{
+    width: 180px;
+    height: 122px;
+    margin-right: 20px;
+}
+
+nav{
+    height: 122px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style: none; /*убираем маркеры списка*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+
+/* posters */
+
+.text{
+    margin-left: 270px;
+    
+}
+
+.postersInner{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+
+.movie{
+    width: 300px;
+    border: 2px dotted white;
+}
+
+
+/* .movie:hover{
+width: 400px;
+border: 2px dotted white;
+} */
+
+.poster{
+    width: 300px;
+
+    
+
+}
+
+
+/* footer */
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+.miniLogo{
+    width: 73px;
+    height: 43px;
+    float: left;
+    margin-right: 20px;
+}
+.textFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+.footerP{
+    color: #000000;
+    font-weight: 900;
+    
+}
+span{
+    color: rgb(27, 8, 200);
+    font-size: 28px;}
+    
+
+    .info{
+        display: flex; 
+        justify-content: space-between;
+        
+    }
+    
+    /* .infoPoster {
+        margin-left: 70px;
+        width: calc(35% - 70px);
+        border: 1px dotted red
+    } */
+    
+    .infoText{
+        margin-right: 50px;
+        width: calc(65% - 50px - 50px);
+    }
+
+    .info{
+        display: flex; 
+        justify-content: space-between; 
+        
+    }
+    
+    .infoPoster {
+        margin-left: 70px;
+        width: calc(35% - 70px);
+        
+    }
+    
+    .infoText{
+        margin-right: 50px;
+        width: calc(65% - 50px - 50px);
+        
+    }
+
+    .pMovie::before{
+        content: url("../images/cinema.png");
+        margin-right: 5px;
+         
+    }
+    .poster:hover{
+        transform: scale(2);
+       
+        
+    
+    
+    }
+
+    .poster:hover{
+
+        transform: scale(2);
+       
+        transition:transform 3s;
+
+
+}
+ .lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+} 
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
